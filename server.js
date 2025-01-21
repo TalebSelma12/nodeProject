@@ -148,6 +148,7 @@ app.post("/pfe", async (req, res) => {
   if (!comptence) {
     return res.status(400).json("Tous les champs sont requis.");
   }
+  ///test
 
   try {
     const sql =
